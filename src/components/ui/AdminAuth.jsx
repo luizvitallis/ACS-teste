@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Lock, ShieldCheck } from "lucide-react";
 
-const ADMIN_PASSWORD = "80402010";
+const ADMIN_PASSWORD = "8020";
 
 export default function AdminAuth({ isOpen, onClose, onSuccess }) {
   const [password, setPassword] = useState('');
